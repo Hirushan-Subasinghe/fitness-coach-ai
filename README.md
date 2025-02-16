@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-## AI Bot using GPT-4o
-=======
 
 ![Project Banner](screencapture-localhost-3000-2025-02-16-19_40_06.png)
 
@@ -39,4 +36,3 @@
 1. Clone the repository
 
 
->>>>>>> 22897b66ce525287bd87ed911a7b618c53f55d62
