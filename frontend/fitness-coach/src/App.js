@@ -96,7 +96,7 @@ function App() {
     return (
       <div className="app-container">
         <div className="main-content">
-          <h1>Generate Your Workout Plan</h1>
+          <h1>Generate Your Workout & Meal Plans</h1>
           <p>
             Fill out the form below to get a personalized workout and nutrition
             plan.

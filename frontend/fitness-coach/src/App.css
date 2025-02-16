@@ -5,7 +5,14 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(45deg, #7800f8, #00102b);
+  /* background: linear-gradient(45deg, #7800f8, #00102b); */
+  background-color: red;
+  background-image: url('gym.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
   font-family: "Poppins", sans-serif;
   color: #333;
   padding: 2rem;
@@ -15,6 +22,10 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+
+.main-content>h1{
+  color: #611fcd;
 }
 
 .custom-chat-container{
@@ -36,10 +47,10 @@
 
 /* Content Wrapper */
 .main-content {
-width: 100%;
+  width: 90%;
   max-width: 100vw;
   background: #ffffff;
-  padding: 2rem;
+  padding: 3rem 2rem 5rem 2rem;
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -53,6 +64,10 @@ width: 100%;
   font-size: 1.4rem;
   font-weight: 600;
   color: #2d3a4a;
+}
+
+p{
+  font-size: 19px !important;
 }
 
 /* Button */
@@ -133,5 +148,107 @@ p {
   button {
     width: 100%;
     margin-top: 1rem;
+  }
+}
+
+/* Fitness AI Page Styles */
+.fitness-ai-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.fitness-ai-content {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.fitness-ai-content h1 {
+  color: #2e76d9;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.fitness-ai-content p {
+  color: #4a5568;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.chat-section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  min-height: 500px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .fitness-ai-container {
+    padding: 1rem;
+  }
+  
+  .fitness-ai-content {
+    padding: 1.5rem;
+  }
+  
+  .fitness-ai-content h1 {
+    font-size: 2rem;
+  }
+  
+  .chat-section {
+    padding: 1rem;
+    min-height: 400px;
+  }
+}
+
+/* AI Chat Button Styles */
+.ai-chat-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.ai-chat-button {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #2e76d9 0%, #1e5bb0 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(46, 118, 217, 0.2);
+}
+
+.ai-chat-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(46, 118, 217, 0.3);
+  background: linear-gradient(135deg, #1e5bb0 0%, #2e76d9 100%);
+}
+
+.ai-chat-button:active {
+  transform: translateY(0);
+}
+
+.ai-chat-button i {
+  font-size: 1.3rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ai-chat-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
   }
 }
