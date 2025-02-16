@@ -20,15 +20,17 @@
 
 <table>
   <tr>
-    <td>Home Page</td>
+    <td>Generated Video Guide</td>
     <td>AI Chat Interface</td>
   </tr>
   <tr>
-    <td><img src="path-to-homepage-screenshot.png" width="300"/></td>
-    <td><img src="path-to-chat-screenshot.png" width="300"/></td>
+    <td><img src="Screenshot 2025-02-16 200126.png" width="300"/></td>
+    <td><img src="Screenshot 2025-02-16 215944.png" width="300"/></td>
   </tr>
 </table>
 
 ## 🚀 Installation and Setup
 
 1. Clone the repository
+
+![Project Banner](Screenshot 2025-02-16 195157.png)
