@@ -29,8 +29,10 @@
   </tr>
 </table>
 
+<img src="Screenshot 2025-02-16 195157.png" width="300"/>
+
 ## 🚀 Installation and Setup
 
 1. Clone the repository
 
-![Project Banner](Screenshot 2025-02-16 195157.png)
+
