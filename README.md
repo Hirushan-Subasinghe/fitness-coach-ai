@@ -1,5 +1,5 @@
 
-![Project Banner](path-to-your-banner-image.png)
+![Project Banner](screencapture-localhost-3000-2025-02-16-19_40_06.png)
 
 ## ✨ Features
 
